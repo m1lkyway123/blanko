@@ -293,6 +293,9 @@ ul, a {
     margin-bottom: 26px;
 }
 
+.business {
+    margin-bottom: 60px;
+}
 .business__content {
     display: flex;
     justify-content: space-between;
@@ -455,5 +458,68 @@ ul, a {
     line-height: 24px;
 }
 .sign-in {
+    color: #FF7143;
+}
+
+.footer {
+    background-color: #000;
+}
+.footer__wrapper {
+    padding: 64px 0 29px;
+    color: #fff;
+}
+.footer__get {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+.footer__get-btn {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 12px 32px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 6px;
+}
+.footer__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 28px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+    margin-bottom: 30px;
+}
+.footer__nav-text {
+    font-size: 16px;
+    line-height: 24px;
+}
+.footer__nav-text + .footer__nav-text {
+    margin-left: 16px;
+}
+.footer__social-media + .footer__social-media {
+    margin-left: 6px;
+}
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__bottom-texts {
+    display: flex;
+}
+.footer__bottom-text {
+    margin-right: 12px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.footer__webflow {
+    margin-right: 13px;
+}
+.footer__designed {
+    font-size: 16px;
+    line-height: 24px;
+}
+.footer__designed span {
     color: #FF7143;
 }
