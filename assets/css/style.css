@@ -603,6 +603,54 @@ ul, a {
         padding: 10px 20px;
         border-radius: 10px;
     }
+
+    .template__content {
+        display: block;
+        padding: 0;
+    }
+    .template__content-texts {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+    .template__content-text {
+        margin: 0 auto 64px;
+    }
+    .template__content-btn {
+        margin-bottom: 100px;
+    }
+    .template__review-stars {
+        margin-bottom: 18px;
+    }
+    .template__review-text {
+        margin-bottom: 10px;
+    }
+    .template__content-img {
+        display: none;
+    }
+
+    .feature {
+        padding: 55px 0;
+    }
+    .feature__content {
+        flex-wrap: wrap;
+    }
+    .feature__content-item:nth-child(3) {
+        margin-top: 20px;
+    }
+}
+
+
+@media (max-width: 868px) {
+    .feature__content {
+        justify-content: center;
+    }
+    .feature__content-item:nth-child(2) {
+        margin-top: 20px;
+    }
+    .feature__item-title {
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
 }
 
 
@@ -652,5 +700,71 @@ ul, a {
     }
     .header__email {
         margin-bottom: 25px;
+    }
+
+    .template__content-title {
+        font-size: 55px;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+    .template__content-text {
+        margin-bottom: 50px;
+    }
+    .template__content-btn {
+        font-size: 17px;
+        margin-bottom: 90px;
+    }
+    .template__btn-purchase, .template__btn-other {
+        padding: 15px 20px;
+    }
+    .template__review-stars {
+        margin-bottom: 16px;
+    }
+    .template__review-text {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 440px) {
+    .template__content-texts {
+        padding-top: 40px;
+    }
+    .template__content-title {
+        font-size: 37px;
+        margin-bottom: 15px;
+    }
+    .template__content-text {
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 40px;
+    }
+    .template__content-btn {
+        font-size: 15px;
+        margin-bottom: 75px;
+    }
+    .template__btn-purchase, .template__btn-other {
+        display: block;
+    }
+    .template__btn-other {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .template__review-stars {
+        margin-bottom: 10px;
+    }
+    .template__review-text {
+        font-size: 17px;
+        line-height: 25px;
+        margin-bottom: 5px;
+    }
+
+    .feature__item-title {
+        font-size: 21px;
+        margin-bottom: 3px;
+    }
+    .feature__item-text {
+        font-size: 14px;
+        line-height: 22px;
     }
 }
