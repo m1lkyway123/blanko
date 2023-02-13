@@ -563,6 +563,18 @@ ul, a {
 
 
 
+
+@media (max-width: 1080px) {
+    .sign-up__wrapper {
+        max-width: 281px;
+    }
+    .sign-up__btn {
+        width: 100%;
+        padding: 18px 0;
+    }
+}
+
+
 @media (max-width: 1005px) {
     .header__content {
         display: block;
@@ -637,6 +649,50 @@ ul, a {
     .feature__content-item:nth-child(3) {
         margin-top: 20px;
     }
+
+    .druk__content-text {
+        font-size: 30px;
+        line-height: 46px;
+        margin-bottom: 38px;
+    }
+    .druk {
+        margin-bottom: 60px;
+    }
+
+    .landing__title {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .landing__wrapper {
+        justify-content: center;
+    }
+    .landing__item {
+        max-width: 320px;
+        overflow: hidden;
+    }
+    .landing__item-img {
+        max-width: 320px;
+    }
+    .business__content-btn {
+        margin-bottom: 85px;
+    }
+
+    .business__content {
+        display: block;
+    }
+    .business__content-texts {
+        margin-top: 0;
+    }
+    .business__content-purchase {
+        margin: 0 auto;
+    }
+    .business__sign-up {
+        margin-top: 25px;
+    }
+    .sign-up__wrapper {
+        max-width: 360px;
+        margin: 0 auto;
+    }
 }
 
 
@@ -650,6 +706,16 @@ ul, a {
     .feature__item-title {
         font-size: 22px;
         margin-bottom: 5px;
+    }
+
+    .druk__wrapper {
+        display: block;
+    }
+    .druk__content {
+        padding: 130px 0 160px;
+    }
+    .druk__img {
+        display: none;
     }
 }
 
@@ -723,6 +789,59 @@ ul, a {
     .template__review-text {
         font-size: 18px;
     }
+
+    .druk__wrapper {
+        height: auto;
+    }
+    .druk__content {
+        padding: 100px 0 100px;
+    }
+    .druk__content-title {
+        margin-bottom: 35px;
+    }
+    .druk__content-text {
+        font-size: 28px;
+        margin-bottom: 35px;
+    }
+    .druk {
+        margin-bottom: 45px;
+    }
+
+    .landing {
+        margin-bottom: 60px;
+    }
+    .landing__title {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    .landing__item {
+        max-width: 265px;
+    }
+    .landing__item:hover {
+        transform: scale(1);
+    }
+    .landing__item-img {
+        max-width: 265px;
+    }
+    .landing__item-text {
+        font-size: 18px;
+    }
+
+    .business__content {
+        padding: 35px 25px;
+    }
+    .business__content-title {
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+    .business__content-btn {
+        font-size: 17px;
+    }
+    .business__btn-purchase, .business__btn-other {
+        padding: 15px 20px;
+    }
+    
+    
 }
 
 
@@ -767,4 +886,95 @@ ul, a {
         font-size: 14px;
         line-height: 22px;
     }
+
+    .druk__content {
+        padding: 60px 0 65px;
+    }
+    .druk__content-title {
+        margin-bottom: 30px;
+    }
+    .druk__content-text {
+        font-size: 14px;
+        line-height: 27px;
+        margin-bottom: 30px;
+    }
+    .druk__content-author {
+        font-size: 17px;
+    }
+    .druk__content-director {
+        font-size: 15px;
+    }
+
+    .other {
+        margin-bottom: 70px;
+    }
+
+    .business__content {
+        border-radius: 4px;
+    }
+    .business__content-title {
+        font-size: 35px;
+        line-height: 47px;
+        margin-bottom: 15px;
+    }
+    .business__content-text {
+        font-size: 15px;
+        margin-bottom: 35px;
+    }
+    .business__sign-up {
+        border-radius: 6px;
+        padding: 30px 20px;
+        text-align: center;
+    }
+    .business__btn-purchase, .business__btn-other {
+        display: block;
+    }
+    .business__btn-other {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .business__content-btn {
+        font-size: 15px;
+        margin-bottom: 60px;
+    }
+    .business__review-stars {
+        margin-bottom: 10px;
+    }
+    .business__review-text {
+        font-size: 17px;
+        line-height: 25px;
+        margin-bottom: 5px;
+    }
+    .sign-up__title {
+        font-size: 22px;
+        margin-bottom: 18px;    
+    }
+    .sign-up__email, .sign-up__pass {
+        font-size: 14px;
+        margin-bottom: 3px;
+    }
+    .business__email, .business__password {
+        padding-left: 20px;
+    }
+    .sign-up__privacy {
+        margin-bottom: 25px;
+    }
+    .checkbox__text {
+        font-size: 13px;
+    }
+    .checkbox__text::before {
+        top: -5px;
+    }
+    .checkbox__text::after {
+        top: 7px;
+    }
+    .sign-up__btn {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .sign-up__already {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    
 }
