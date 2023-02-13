@@ -10,11 +10,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link href="assets/css/reset.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
+
+    <script defer src="assets/js/main.js"></script>
 </head>
 <body>
     <header class="header">
         <div class="container">
             <div class="header__content">
+                <button class="header__burger-btn" id="burger">
+                    <span></span><span></span><span></span>
+                </button>
                 <div class="header__left">
                     <div class="header__logo logo">
                         <a href="#"><img src="assets/images/logo.svg" alt=""></a>
@@ -26,9 +31,9 @@
                 <div class="header__right">
                     <nav class="header__menu">
                         <ul class="header__menu-list">
-                            <li><a href="#">Landing</a></li>
-                            <li><a href="#">All pages</a></li>
-                            <li><a href="#">Template</a></li>
+                            <li><a class="header__menu-link" href="#">Landing</a></li>
+                            <li><a class="header__menu-link" href="#">All pages</a></li>
+                            <li><a class="header__menu-link" href="#">Template</a></li>
                         </ul>
                     </nav>
                     <div class="header__sign">
@@ -164,7 +169,7 @@
 
         <section class="other">
             <div class="container">
-                <h2 class="other__title">
+                <h2 class="other__title landing__title">
                     Other pages
                 </h2>
                 <div class="landing__wrapper">
